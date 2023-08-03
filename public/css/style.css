@@ -1,0 +1,17 @@
+.margin{
+    margin-top: 10%;
+   }
+
+
+.mainsection{
+    width: 800px;
+    margin-left: 20%;
+}
+.img{
+    background-size: contain;
+}
+
+.dashboard{
+    margin-top: 2%;
+    margin-left: 3%;
+}
