@@ -14,6 +14,7 @@ class BranchController extends Controller
      */
     public function index(Request $request)
     {
+
         $search = $request['search'] ?? "";
 
         $branches = Branch::when($request->input('search') != '', function ($query) use ($search) {
